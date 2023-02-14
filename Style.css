@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Poppins:ital,wght@0,600;0,700;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanuman&family=IM+Fell+Double+Pica+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC&family=Inter:wght@100;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,700;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*seção header*/
+
+.section{
+    background-image: url(./assets/image/fundo-2.jpg);
+    backdrop-filter: blur(3px);
+    background-position: center;
+    background-size: cover;
+    height: 50vw;
+    width: 100%;
+     
+}
+
+
+.profile{
+    display: block;
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 14%;
+    width: 27vw;
+    
+}
+
+aside{
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+}
+
+.titulo{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   margin-left: 10%;
+   flex-wrap: wrap;
+}
+
+.titulo h1{
+    font-size: 40px;
+    color: #fff;
+    margin-top: 13%;
+    margin-right: 444px;
+    font-family: "Poppins";
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow:7px 7px 20px #000000;
+
+}
+
+.titulo h2{
+    color: #46002e;
+    font-size: 30px;
+    font-family: "Hanuman";
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-shadow:7px 7px 20px #000000;
+}
+
+.titulo h5{
+    color: #fff;
+    font-size: 15px;
+    font-family: "Hanuman";
+    letter-spacing: 2px;
+    font-weight: 200;
+    text-shadow:7px 7px 20px #000000;
+
+}
+
+.navegacao{
+    display: flex;
+    margin-top: 35px;
+    gap: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.title__navegacao{
+    font-size: 15px;
+    margin-top: 15px;
+    font-family: "Inter";
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.image__logo{
+    display:flex;
+    margin: 13px 23px;
+
+    width: 2vw;
+}
+
+.title:hover{
+    transition: 1.2;
+    transform: scale(1.1);
+   
+}
+
+@media only screen and (max-width: 414px)  {
+
+    /*seção header*/
+
+    .titulo h1{
+        font-size: 40px;
+        margin-top: 75%;
+        margin-right: 15%;
+        
+    }
+
+    .titulo h2{
+        font-size: 25px;
+        margin-right: 15%;
+    }
+    
+    .titulo button{
+        width: 150px;
+    }
+
+    .Numeros{
+        margin-right: 25%;
+        margin-top: 50%;
+    }
+
+
+}
+
+/*Seção sobre mim*/
+
+
+.sobre{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: #ffffff;
+}
+
+.animacao{
+    width: 27vw;
+    height: auto;
+    margin: 8rem 0 0 8rem;
+}
+
+.animacao2{
+    display: flex;
+    position: absolute;
+    right: 720px;
+    width: 5vw;
+    height: auto;
+}
+
+.animacao3{
+    display: flex;
+    position: absolute;
+    margin-top: 0.3vw;
+    right: 24.7vw;
+    width: 2.7vw;
+    height: auto;
+}
+
+
+.sobre-mim{
+    margin: 9rem 8rem 8rem 0;
+}
+
+.sobre-mim h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter";
+    font-weight: bold;
+}
+
+
+.sobre-mim p{
+    font-size: 12px;
+    margin-top: 25px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.5em;
+    word-spacing: 2px;
+    white-space: pre-wrap;
+
+}
+
+@media only screen and (max-width: 414px){
+
+   /*Seção sobre mim*/
+
+    .image img{
+        width: 350px;
+        height: auto;
+    }
+
+
+
+    .sobre-mim p{
+        font-size: 12px;
+        width: 500px;
+        padding: 15px;
+        text-align: center;
+    }
+
+    .sobre-mim button{
+        margin-top: 50px;
+        text-align: center;
+    }
+
+
+}
+
+/*Seção skills*/
+
+section.skills{
+    width: 100%;
+    background-image: url(./assets/image/fundo2.jpg);
+    padding: 70px;
+    
+}
+
+.skills h1{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    padding-top: 1%;
+    color: #fff;
+    text-shadow:  -2px -2px 3px #32adbd77,-13px -4px 7px #00000029, 4px 4px 4px #ee21217e;
+}
+
+
+.secao__card{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+    text-align: center;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 130px;
+    backdrop-filter: blur(1px);
+}
+
+
+.card{
+    margin: 10px 40px;
+    padding: 2.8rem;
+    box-shadow: -7px -4px 20px #32adbd, 10px 4px 20px #ee2121;
+    border-radius: 15px;
+    background-color: #04073a;
+    border: 1px solid #ffffffb5;
+}
+
+.simbolo{
+    display: inline-table;
+    width: 80px;
+}
+
+.simbolo1{
+    display: inline-table;
+    width: 120px;
+}
+
+.simbolo2{
+    display: inline-table;
+    width: 120px;
+}
+
+.secao__card-2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    text-align: center;
+    flex-wrap: wrap;
+    backdrop-filter: blur(1px);
+    
+}
+
+.card h3{
+    font-size: 20px;
+    font-family: "Inria Sans";
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.card:hover{
+    transform: scale(1.1);
+    transition-duration: .9s;
+}
+
+
+@media only screen and (max-width: 414px){
+
+    /*Seção skills*/
+
+    .card{
+        margin-top: 35px;
+    }
+
+    .secao__card-2{
+        margin-top: 35px;
+    }
+
+
+
+}
+
+
+/*Seção portfolio*/
+
+section.portfolio{
+    width: 100%;
+    background-color: #eaeaea;
+}
+
+.portfolio h1{
+    text-align: center;
+    font-size: 45px;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    padding-top: 14%;
+    color: #000000;
+}
+
+.img-portfolio{
+   display: flex;
+   justify-content:space-between;
+   flex-direction:row;
+   gap: 100px;
+   margin: 0 100px;
+   flex-wrap: wrap;
+   padding: 14% 0;
+}
+
+.img-portfolio img{
+    width: 450px;
+    height: auto;
+    box-shadow: -4px -4px 10px #32adbdca, 4px 4px 10px #ee212180;
+    border-radius: 10px;
+}
+
+
+.portfolio img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    transition-duration: 0.9s;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 414px){
+
+    /*Seção portfolio*/
+    
+    .img-portfolio img{
+        width: 300px;
+        height: auto;
+       
+    }
+
+    .img-2 img{
+        width: 300px;
+        height: auto;
+        margin-left: -28px;
+        margin-top: 50px;
+       
+    }
+}
+
+/*Seção cursos*/
+
+section.formacao{
+    width: 100%;
+    background-image: url(./assets/image/fundo2.jpg);
+    padding: 10px;
+}
+
+.secao__cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 8%;
+    text-align: center;
+    flex-wrap: wrap;
+    color: #fff;
+    margin: 130px;
+}
+
+
+.cards{
+    margin: 10px 7px;
+    padding: 17px;
+    box-shadow: -7px -4px 20px #32adbd56, 10px 4px 20px #ee21214e;
+    border-radius: 15px;
+    border: 1px solid #ffffffb5;
+}
+
+
+.formacao h1{
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    padding-top: 1%;
+    color: #e6e4e4;
+}
+
+.formacao p{
+    text-align: center;
+    font-family: "Inria Sans";
+    color: #fbfbfb;
+    margin-top: 25px;    
+} 
+
+.iformacao__academica{
+    display: inline-table;
+    width: 80px;
+}
+
+
+.cards h4{
+    font-size: 20px;
+    font-family: "Inria Sans";
+    font-weight: 700;
+    color: #fbfbfb;
+}
+
+
+.cards:hover{
+    transform: scale(1.1);
+    transition-duration: .9s;
+}
+
+/*contato*/
+
+
+section.formcontato {
+    background-color: #f0f0f0;
+    padding: 2rem 6rem;
+    text-align: center;
+    color: #000000;
+    font-family: "Inria Sans";
+    font-weight: bold;
+    margin: 13rem;
+}
+
+.formcontato__img {
+    display: none;
+}
+
+.formcontato__title {
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.formcontato__subtext {
+    font-weight: 500;
+}
+
+.formcontato__form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    margin: 2rem 2rem;
+}
+
+.form__input__box {
+    position: relative;
+    width: 100%;
+}
+
+.formcontato__input {
+    background-color: #fff;
+    border: none;
+    border-bottom: #C8C8C8 2px solid;
+    border-radius: 4px;
+    color: #A2A2A2;
+    height: 56px;
+    outline: none;
+    padding: 0 1rem;
+    padding-left: 5rem;
+    transition: padding .2s ease-in-out;
+    width: calc(100% - 5rem);
+}
+
+.formcontato__input--invalido {
+    border-bottom: #d12828 2px solid;
+}
+
+.formcontato__input:focus {
+    border-bottom: #2A7AE4 2px solid;
+    color: var(--cor-de-texto);
+    padding-left: 1rem;
+}
+
+.form__label {
+    color: #A2A2A2;
+    font-weight: 500;
+    font-size: 0.875rem;
+    left: 1rem;
+    position: absolute;
+    transform: translateY(-50%);
+    transition: top .2s ease;
+    text-align: left;
+    top: 50%;
+    width: 100%;
+}
+
+.form__label__erro {
+    color: #d12828;
+    display: block;
+    padding-top: .5rem;
+}
+
+.form__label--textarea {
+    top: 1rem;
+}
+
+.formcontato__input:focus~.form__label,
+.formcontato__textarea:focus~.form__label {
+    color: var(--cor-de-texto);
+    top: -.8rem;
+}
+
+.formcontato__textarea {
+    width: calc(100% - 5rem);
+    padding: 1.5rem 1rem;
+    padding-left: 5rem;
+    resize: none;
+    background-color: #fff;
+    outline: none;
+    border: none;
+    border-bottom: #C8C8C8 2px solid;
+    color: #A2A2A2;
+    transition: padding .2s ease-in-out;
+}
+
+.formcontato__textarea:focus {
+    border-bottom: #2A7AE4 2px solid;
+    color: var(--cor-de-texto);
+    padding-left: 1rem;
+}
+
+.formcontato__botao{
+    border-radius: 6px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.formcontato__botao:active{
+    text-transform: uppercase;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.formcontato__botao:disabled {
+    opacity: .7;
+    transform: none;
+}
+
+
+/*footeer*/
+section.footer {
+    text-align: center;
+}
+
+.footer__rodape {
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 414px){
+
+    .C-rodapé form input:last-child{
+        width: 100px;
+        
+    }
+
+}
